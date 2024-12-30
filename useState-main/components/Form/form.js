@@ -9,7 +9,7 @@ export default ()=>{
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const response = await fetch('http://192.168.1.31:3030/register', {
+    const response = await fetch('http://127.0.0.1:3030/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

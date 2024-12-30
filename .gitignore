@@ -1,1 +1,3 @@
-node-modules/
+fluffy-chainsaw-main/node_modules/
+useState-main/.parcel-cache/
+useState-main/node_modules/
